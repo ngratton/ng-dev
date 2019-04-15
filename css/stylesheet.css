@@ -103,12 +103,11 @@ h4 {
   font-size: 2em;
   color: #FFF;
 }
-@-webkit-keyframes arrow-jump {
+@keyframes arrow-jump {
   0%   { opacity: 0;}
   100% { opacity: 1; 
         -webkit-transform: translateY(10px);
         -moz-transform: translateY(10px);
-        -0-transform: translateY(10px);
         transform: translateY(10px);
     }
   
