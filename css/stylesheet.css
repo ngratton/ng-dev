@@ -94,7 +94,7 @@ h4 {
 /*   ENTETE   */
 /**************/
 .header {
-  min-height: calc(100vh - 65px);
+  min-height: calc(25vh - 65px);
   margin-top: 65px;
   padding: 15px;
   text-align: center;
