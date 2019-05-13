@@ -123,7 +123,7 @@ h4 {
 /**************/
 
 .header {
-  min-height: calc(25vh);
+  min-height: calc(100vh);
   margin: 65px;
   padding: 15px;
   text-align: center;
