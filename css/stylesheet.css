@@ -37,7 +37,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   text-align: center;
-  line-height: calc(12.5vh + 190px);
+  line-height: calc(50vh + 190px);
 }
 
 h2 {
@@ -73,18 +73,24 @@ h4 {
 
 .navigbar {
   background-color: rgba(214,95,0,.9);
-  height: 65px;
   line-height: 65px;
-  list-style-type: none;
+  height: 65px;
   padding: 0;
   overflow: hidden;
   width: 100%;
-  margin: 0;
+  margin: 0; 
+}
+
+.nav-container {
+  display: inline-flex;
+  width: 960px;
 }
 
 .navigbar li {
   color: #FFF;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: flex-end;
+
 }
 
 .navigbar li a {
@@ -113,8 +119,8 @@ h4 {
   font-weight: 800;
 }
 
-.navbar-fixed-top {
-  position: fixed;
+.topnav {
+  justify-items: flex-end;
 }
 
 
@@ -123,10 +129,9 @@ h4 {
 /**************/
 
 .header {
-  min-height: calc(100vh);
-  margin: 65px;
-  padding: 15px;
+  min-height: calc(100vh - 85px);
   text-align: center;
+  display: flex;
 }
 
 .head-scroll {
