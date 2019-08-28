@@ -178,7 +178,7 @@ h4 {
   flex: 2;
 }
 
-.cv-education {
+.cv-competences {
   border-left: 1px solid #E2E8F0;
   flex: 1;
   padding-left: 25px;
@@ -191,6 +191,7 @@ h4 {
 
 .cv h5 {
   color: #000;
+  margin: 5px 0;
 }
 
 .cv a {
@@ -226,16 +227,18 @@ h4 {
   background-color: var(--couleur-principale);
   color: #fff;
   line-height: 40px;
-}
-
-.reseaux-soc a svg {
-  transform: translateY(25%) scale(0.9);
-  margin-right: 5px;
+  transition: all .2s ease-in;
 }
 
 .reseaux-soc a:hover {
   transition: all .2s ease-in;
   background-color: var(--couleur-hover);
+}
+
+
+.reseaux-soc a svg {
+  transform: translateY(25%) scale(0.9);
+  margin-right: 10px;
 }
 
 /****************/
