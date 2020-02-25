@@ -1,15 +1,16 @@
 <!DOCTYPE html>
   <html lang="fr">
   <head>
-    <title>Nicholas Gratton | développeur en développement</title>
+    <title>Nicholas Gratton | développeur full-stack</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="description" content="Je suis un développer web full-stack en développement avec une dizaine d'année d'expérience en marketing.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
-    <link rel="alternate" href="http://www.nicholasgratton.com" hreflang="fr-ca">
-    <script type="text/javascript" src="script/script.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="alternate" href="https://www.nicholasgratton.com" hreflang="fr-ca">
+    <link rel="canonical" href="https://www.nicholasgratton.com">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script type="text/javascript" src="script/script.js" defer></script>
   </head>
   <body>
  
@@ -25,14 +26,14 @@
     
 <!-- ENTETE -->
   <header class="header">
-    <div class="container">
-      <div class="title">
+    <div class="container flex flex-center">
+      <div class="title flex flex-column">
         <h1>
           NICHOLAS GRATTON
         </h1>
-        <p>
-          développeur en développement
-        </p>
+        <span>
+          développeur full-stack
+        </span>
       </div>
       <div id="arrow">
         <p>
@@ -52,7 +53,8 @@
        <div class="cv-container">
         <div class="cv-emplois">
           <p>
-            Actuellement, je suis étudiant au l'AEC de <a href="https://fcsei.cstj.qc.ca/programmes-detudes/attestations-detudes-collegiales-a-temps-plein/conception-et-programmation-de-sites-web-nwe-0f/le-programme-nwe-0f/"><em>Conception et programmation de sites web</em></a> au <a href="https://www.cstj.qc.ca/">Cégep de Saint-Jérôme</a>. Fort de 10 ans d'expérience en marketing, ce retour aux études se veut un coup de gouvernail à ma carrière et une spécialisation de mes compétences.
+            Prochainement diplômé de l’AEC en <a href="https://fcsei.cstj.qc.ca/programmes-detudes/attestations-detudes-collegiales-a-temps-plein/conception-et-programmation-de-sites-web-nwe-0f/le-programme-nwe-0f/"><em>Conception et programmation de sites web</em></a> au <a href="https://www.cstj.qc.ca/">Cégep de Saint-Jérôme</a>.
+            J’ai plus de 10 ans d’expérience en marketing et TI et ce retour aux études est une spécialisation de mes compétences. Je suis vraiment sur mon “X” !
           </p>       
           <h4 class="cv-poste">
             Coordonnateur contenu & marketing croisé
@@ -109,26 +111,6 @@
             <h4>
               Éducation
             </h4>
-            <h5>
-              Polyvalent Lavigne &mdash; 2002
-            </h5>
-            <p>
-              DES+
-            </p>
-
-            <h5>
-              Cégep de St-Jérôme &mdash; 2002 & 2004
-            </h5>
-            <p>
-              Technique en analyses biomédicales <em>(incomplet)</em>
-            </p>
-
-            <h5>
-              Free Code Camp &mdash; 2017-En cours
-            </h5>
-            <p>
-              Certificat en développement web
-            </p>
 
             <h5>
                 Cégep de Saint-Jérôme &mdash; 2019-2020
@@ -136,28 +118,44 @@
             <p>
               AEC Conception et programmation de sites web
             </p>
+
+            <h5>
+              Polyvalent Lavigne &mdash; 2002
+            </h5>
+            <p>
+              DES+
+            </p>
           </div>
           
           <div class="cv-software">
             <h4>Logiciels et Environnements</h4>
             <ul class="list-unstyled">
               <li>
-                  Adobe CC
+                  HTML
               </li>
               <li>
-                  HTML & CSS
+                CSS
               </li>
               <li>
-                  JavaScript
+                JavaScript
               </li>
               <li>
-                  PHP
+                PHP
               </li>
               <li>
-                  Git
+                VueJS
               </li>
               <li>
-                  Windows
+                Laravel (PHP)
+              </li>
+              <li>
+                Git
+              </li>
+              <li>
+                Adobe CC
+              </li>
+              <li>
+                Windows
               </li>
               <li>
                   Linux
@@ -181,7 +179,7 @@
         <p>
           Voyez certains de mes projets sur ces plateformes :
         </p>
-        <div class="reseaux-soc">
+        <div class="reseaux-soc flex">
           <a href="https://www.github.com/ngratton" target="_blank" alt="Béhance"><span data-feather="github"></span> GitHub</i></a>
           <a href="https://codepen.io/ngratton/" target="_blank" alt="CodePen"><span data-feather="codepen"></span> Codepen</i></a>
           <a href="https://www.behance.net/ngratton" target="_blank" alt="Béhance">Béhance</i></a>
@@ -197,7 +195,7 @@
     <div class="container">
       <h2>Contact</h2>
 
-        <div class="reseaux-soc">
+        <div class="reseaux-soc flex">
               <a href="https://www.linkedin.com/in/nicholasgratton" target="_blank" alt="LinkedIn"><span data-feather="linkedin"></span> LinkedIn</i></a>
               <a href="tel:514-568-9832" alt="Téléphone"><span data-feather="smartphone"></span> 514.568.9832</a>
         </div>
@@ -227,10 +225,6 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-43361509-1');
-    </script>
-
-    <script>
-      feather.replace()
     </script>
   </body>
 </html>
