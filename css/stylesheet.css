@@ -325,10 +325,13 @@ h4 {
     align-items: center;
   }
   header .title h1 {
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 700;
     font-family: 'Roboto',Helvetica, Arial, sans-serif;
     text-align: center;
+  }
+  header #arrow {
+    display: none;
   }
   .topnav li:last-child {
     display: inline;
