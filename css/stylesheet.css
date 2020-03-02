@@ -73,11 +73,19 @@ h4 {
   padding: 0;
   width: 100%;
   margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .nav-container {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-container span {
+  padding: 0 20px;
 }
 
 .navigbar a {
@@ -165,6 +173,7 @@ h4 {
   background-color: #FFF;
   color: #4F5858;
   padding: 50px 15px 80px 15px;
+  position: relative;
 }
 
 .cv-container {
@@ -180,6 +189,8 @@ h4 {
   border-left: 1px solid #E2E8F0;
   flex: 1;
   padding-left: 25px;
+  position: sticky;
+  top: 70px;
 }
 
 .cv h4 {
